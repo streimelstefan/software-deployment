@@ -1,6 +1,3 @@
-const initAppInsights = require('../initAppInsights');
-initAppInsights();
-
 module.exports = async function (context, req) {
   context.log('Increment function processed a request.');
   
