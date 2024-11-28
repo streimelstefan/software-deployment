@@ -16,6 +16,16 @@ The production site can be found under: https://green-moss-0d7a25803.5.azurestat
 The production evnironment is monitored using Application insights. A screenshot below shows insights after the button on the page has been clicked a couple of times.
 ![Inishgts](docs/Insights.png)
 
+# Pipelines
+
+The screenshot below shows pipelines that have finished and one that has failed since the tests where not successful.
+
+![pipelines](docs/pipelines.png)
+
+And the screenshot below shows the steps taken by a pipeline:
+
+![pipelinerun](docs/pipelinerun.png)
+
 # Create Release
 
 if you want to publish a new release you first need to merge your changes into the release branch. There you need to to check you changes in the development environment.
