@@ -20,10 +20,14 @@ jobs:
           submodules: true
           lfs: false
 
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./Lab2
+
       - name: Run tests
         run: npm run test
         working-directory: ./Lab2
-        
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
